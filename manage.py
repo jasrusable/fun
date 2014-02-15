@@ -4,6 +4,7 @@ import nose
 
 manager = Manager(app)
 
+@manager.command
 def test():
 	nose.main(argv=['jason', '--failed'])
 
