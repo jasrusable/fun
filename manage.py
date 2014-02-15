@@ -4,7 +4,7 @@ from jason import app
 
 manager = Manager(app)
 
-def main()
+def main():
 	manager.run()
 
 
