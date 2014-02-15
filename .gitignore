@@ -23,3 +23,5 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+.noseids
