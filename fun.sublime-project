@@ -4,5 +4,13 @@
 		{
 			"path":"/home/jason/Documents/git/fun"
 		}
-	]
+	],
+	"build_systems":
+        [
+            {
+            "name": "Nosetests",
+            "working_dir": "/home/jason/Documents/git/fun",
+            "cmd": ["venv/bin/python", "manage.py", "test"]
+            }
+        ]
 }
